@@ -54,4 +54,8 @@ div._1 label._2{
         background-size: cover;
         background-repeat: no-repeat;
     }
+    div._1{
+    margin:30% 35%;
+    width:40%;
+}
 }
