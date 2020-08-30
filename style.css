@@ -16,7 +16,7 @@ div.recent{
     padding-left:200px;
     margin-top:0px;
     color:#1c1e21;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Krona One', sans-serif;
     font-weight: 500;
     font-size:30px;
 }
@@ -133,6 +133,7 @@ p.create{
     width:100%;
 }
 p.create a{
+    font-family: 'Bebas Neue', cursive;
     padding:10px;
     background-color:#42b72a;
     color:#ffffff;
@@ -149,4 +150,37 @@ div.end{
     margin-top:20%;
     background-color:#ffffff;
     text-indent:100px;
+}
+@media screen and (max-width : 980px){
+    body{
+        margin:0px;
+    }
+    div.left{
+        background-color: rgb(158, 212, 212);
+        padding-top:2%;
+        padding-left:2%;
+    }
+    div.recent{
+        display:none
+    }
+    div.click{
+        display:none
+    }
+    div.page{
+        display:none;
+    }
+    div.acount{
+        display:none;
+    }
+    div.right{
+        width:395.99px;
+        height:344.77px;
+        margin-left:25%;
+        margin-right:25%;
+        background-color:#ffffff;
+        padding:10px 0px 24px;
+        border: ridge;
+        border-color:rgb(214, 211, 211);
+        border-width:1px;
+    }
 }
