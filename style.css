@@ -1,7 +1,7 @@
 body{
     background-color:#f0f2f5;
     height:100%;
-    width:100%;
+    width:100%
 }
 div.left{
     padding-top:70px;
@@ -16,9 +16,9 @@ div.recent{
     height:31.11px;
     padding-top:-30px;
     padding-left:200px;
+    font-family: 'Krona One', sans-serif;
     margin-top:0px;
     color:#1c1e21;
-    font-family: 'Krona One', sans-serif;
     font-weight: 500;
     font-size:30px;
 }
@@ -128,23 +128,32 @@ div.border{
     border-width:1px;
 }
 div.host{
-    width:80%;
-    height:30%;
+    width:95%;
+    height:15%;
+    background-color:#42b72a;
+    border-radius:5px;
+    margin:20px 10px 0px 10px;
+    
 }
 p.create{
-    width:100%;
-}
-p.create a{
-    font-family: 'Bebas Neue', cursive;
-    padding:10px;
+    width:95%;
+    height:15%;
     background-color:#42b72a;
+    border-radius:5px;
+    margin:20px 10px 0px 10px;
+}
+div.host a{
+    font-family: 'Bebas Neue', cursive;
     color:#ffffff;
     border-radius:5px;
     text-indent:15px;
+    position:relative;
+    right:30px;
+    top:10px
 }
 div.host a:hover{
     text-decoration:none;
-    background-color:#44af2fc0;
+    background-color:#1b4b11c0;
 }
 div.end{
     width:100%;
@@ -184,5 +193,9 @@ div.end{
         border: ridge;
         border-color:rgb(214, 211, 211);
         border-width:1px;
+    }
+    div.right{
+       margin:20%;
+        
     }
 }
