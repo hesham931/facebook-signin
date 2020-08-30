@@ -195,7 +195,9 @@ div.end{
         border-width:1px;
     }
     div.right{
-       margin:20%;
-        
+       margin:auto;
+    }
+    div.end{
+        margin-top:40%;
     }
 }
