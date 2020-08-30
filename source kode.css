@@ -1,0 +1,106 @@
+/*how to related css with html:
+
+<link rel = "stylesheet" href = "مسار ملف css">
+
+
+if you put just one style no(;) to put more ypu must put between them (;)
+
+
+
+border:value(px) خط حولين ال ديف
+
+
+background:
+
+    background-color:burlywood;
+    background-image:url('مسار الصوره');
+    background-repeat: /*repeat-y تكرار افقي|| repeat-x تكرار عامودي|| no-repeat */;/*تكرار الصوره
+    background-position:0% 0%;للتحكم في مكان الصوره يمين يسار اعلى اسفل
+    background-attachment:fixed || scroll; عند النزول لاسفل الصفحه تنزل الصوره معك
+
+
+    background:image repeat attachment postion color;
+    background:url('') no-repeat scroll 50% 50% red;
+    
+
+    text options:
+    direction:ltr || rtl (محاذاة النص من اليمين لليسار او من اليسار لليمين)
+
+    letter-spacing:(value)px  الفراغ بين الاحرف وتاخذ قيم سالبه تقرب الكلام اكثر
+
+    word-spacing:(value)px الفراغ بين الكلمات
+
+    line-height:(value)px الفراغ بين الاسطر في الكلام
+
+    text-align:center || left || right موقع الكلام
+
+    padding:(value)px حشو الديف او اي شئ اخر
+
+
+    text-decoration:underline يضع خط تحت الكلام || none لازالة الخط || overline يضع الخط فوق الكلام
+    text-decoration:line-through
+    text-indent:(value)px لعمل مسافة اول السطر قبل الكتابه
+    text-transform:capitalize يجعل اول حرف من كل كلمه كبتل
+    text-transform:uppercase يجعل الحروف كبيره
+    text-transform:lowercase يجعل الحروف صغيره
+    white-space:normal || nowrap يتخطى الديف ويكمل الحديث
+    overflow:hidden يخفي الحديث الزائد عن الديف
+
+
+font:
+
+font-family: arail || "time new roman" نوع الخط ويفضل وضع اكثر من نوع بنفس الوقت حتى تكون تدعم اكثر من نوع خط
+font-size:value(px) حجم الخط
+font-weight:100-900 سماكة الخط
+font-style:italic نوع الكتابه
+
+
+font: font-style  font-weight  font-size  line-height font-family
+font:italic bold 30px/50px "time new roman",arail;
+
+links:
+hover(عند وضع المؤشر على اللينك)
+    a:hover{
+        text-decoration:underline يتم وضع الخط تحت الموقع عند وضع المؤشر عليه||overline;
+        color:red;
+    }
+    active(عن الضغط على الينك)
+    a.active{
+        ttext-decoration:line-through;
+        font-weight:light;
+
+
+        border:
+
+        border-style:value:خط  || منقط || مموجsolid
+        dotted منقط
+        double خطين بينهم فراغ
+        
+        border-width:value(px); || border-width: value(px) value(px) value(px) value(px); (top right bottom left)
+        border-color:value: || border-color: value value valuee value (top right bottom left)
+        border-left:;
+        border-right || border-bottom || border-top
+
+        margin:
+
+        margin:value || value || value || value (top right bottom left)
+        margin-left || margin-right || margin-bottom || margin-top
+        margin:auto;(يجعل الديف في منتصف الصفحه)
+        margin:value auto;
+        the margin take negative value.
+
+        padding:
+        padding:value value value value;
+        padding-top || right || bottom || left
+
+        
+        display:
+        display:block (يجعل كل عنصر على سطر منفرد)
+        display:inline (كلهم على نفس السطر)
+        display:none (يخفي العنصر بشكل كامل)
+
+        postion:
+        postion:fixed; (يثبت لعنصر مهما تحكرت في الصفحه)
+        position:relaive; (يتحكم التحكم في موقع العنصر باي شكل وموضع)
+        position:absluot;(يضع العنصر في اعلى العنصر المضيف على اليمين)
+    */
