@@ -184,17 +184,6 @@ div.end{
         display:none;
     }
     div.right{
-        width:395.99px;
-        height:344.77px;
-        margin-left:25%;
-        margin-right:25%;
-        background-color:#ffffff;
-        padding:10px 0px 24px;
-        border: ridge;
-        border-color:rgb(214, 211, 211);
-        border-width:1px;
-    }
-    div.right{
        margin:auto;
     }
     div.end{
