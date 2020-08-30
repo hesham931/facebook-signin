@@ -1,8 +1,7 @@
 body{
     background-image: url('https://review.topmaxtech.net/content/uploads/elmstba.com_1457069811_7212.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*overflow: hidden;*/
+    background-size: auto;
+    background-repeat: repeat-x;
 }
 div._1{
     margin:5% 35%;
