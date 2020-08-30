@@ -48,3 +48,10 @@ div._1 label._2{
     border-radius:3px;
     padding:2% 10% 2% 2%;
 }
+@media screen and (max-width:980px){
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNJaVaL2cS_4aR9YX6E5R5ikk6v1pJhSAsPw&usqp=CAU');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
